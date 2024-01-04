@@ -1,2 +1,3 @@
 # Conways-game
-#dffsdfsfsdfdsfsdfsdfsd
+Conway's Game is life game
+the code i have written consists of functions that make this game possible first function is to create a bitmap to visualize and create a grid with pixels CreateGridSurface() then i have the button reset which it lets you choose how big or small you want the grid to be and then reset the bitmap to that size .The advance button which calls the GetNextState function applys the conditions on the created grid . The conditions i have are for a cell to be born it needs 3 neighbors and to stay alive 2 or 3 a pixel dies when its lonely or when its crowded, you can easily change the coniditions in the GetNextState function 
